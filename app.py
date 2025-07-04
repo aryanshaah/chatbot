@@ -16,7 +16,7 @@ prompt = ChatPromptTemplate.from_messages([
     HumanMessagePromptTemplate.from_template("Question: {question}")
 ])
 
-st.title('Langchain Demo with deepseek-r1 API')
+st.title('Langchain Demo with gemma3 API')
 input_text = st.text_input("Ask anything:")
 
 llm = Ollama(model="gemma3:1b")
